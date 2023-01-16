@@ -26,13 +26,39 @@ export default class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    About
+                  <a className="nav-link" href="/business">
+                    Business
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/entertainment">
+                    Entertainment
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="/health">
+                    Health
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/science">
+                    Science
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/technology">
+                    Technology
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/sports">
+                    Sports
                   </a>
                 </li>
               </ul>
